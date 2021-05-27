@@ -58,7 +58,7 @@ def get_phone_number ( body ) :
                     for element in item.find_all ( class_ = True ) :
                         classes = [ ]
                         classes.extend ( element [ "class" ] )
-                        phoneNo = str ( (which_digit ( classes [ 1 ] )) )
+                        phoneNo += str( (which_digit ( classes [ 1 ] )))
                 except :
                     pass
     except :
