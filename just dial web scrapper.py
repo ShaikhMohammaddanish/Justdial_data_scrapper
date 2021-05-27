@@ -96,7 +96,7 @@ def get_address ( body ) :
 
 page_number = 1
 
-#fields = [ 'Name', 'Phone', 'Rating', 'Rating Count', 'Address' ]
+fields = [ 'Name', 'Phone', 'Rating', 'Rating Count', 'Address' ]
 #phone +=
 
 out_file = open ( 'justdialdata.csv', 'w' )
